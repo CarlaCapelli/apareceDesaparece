@@ -1,3 +1,13 @@
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: left 0%;
+    width: 100%;
+  }
+}
 body {
   background-color: rgb(114, 19, 19);
 }
@@ -16,4 +26,8 @@ p {
 }
 .ocultar {
   display: none;
+}
+#p-2 {
+  animation-duration: 10s;
+  animation-name: slidein;
 }
